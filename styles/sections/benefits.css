@@ -1,0 +1,36 @@
+#benefits{
+     padding-bottom: 10.3rem;
+}
+
+#benefits .container {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     grid-row-gap: 7rem;
+     margin-top: 7.4rem;
+}
+
+.benefit {
+     display: flex;
+     align-items: center;
+}
+
+.benefit .num {
+     display: grid;
+     place-items: center;
+     height: 7rem;
+     width: 7rem;
+     margin-right: 3rem;
+     color: transparent;
+     font-weight: 500;
+     font-size: 3.6rem;
+     line-height: 4rem;
+     text-align: center;
+     -webkit-text-stroke: 0.1rem var(--color-0);
+     box-shadow: 0px 4px 10px rgba(153, 153, 153, 0.25);
+     border-radius: 10px;
+}
+
+.benefit .text {
+     width: 39rem;
+     line-height: 3.5rem;
+}
