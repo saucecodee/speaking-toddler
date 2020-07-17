@@ -41,5 +41,6 @@ footer .container {
      font-weight: bold;
      font-size: 7rem;
      line-height: 140%;
+     text-align: center;
      -webkit-text-stroke: 0.2rem var(--color-0);
 }
