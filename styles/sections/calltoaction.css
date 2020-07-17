@@ -1,0 +1,45 @@
+#call-t-a {
+     background-color: var(--color-2);
+     height: 35.8rem;
+}
+
+#call-t-a .container {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     height: 100%;
+}
+
+.c-text {
+     width: 56.2rem;
+     line-height: 3.5rem;
+     font-size: 2.2rem;
+     margin-bottom: 5rem;
+}
+
+form {
+     display: flex;
+     width: 839px;
+     height: 72px;
+}
+
+input {
+     width: 100%;
+     padding: 0 4rem;
+     font-size: 2rem;
+}
+
+input::placeholder {
+     color: rgba(0, 0, 0, 0.6);
+     font-weight: 600;
+}
+
+form button {
+     background-color: var(--color-0);
+     color: #ffffff;
+     width: 211px;
+     height: 100%;
+     font-size: 2rem;
+     cursor: pointer;
+}
