@@ -1,0 +1,44 @@
+/* ==================== Header ==================== */
+header {
+     background: #ffffff;
+     color: var(--color-0);
+     font-size: 2rem !important;
+     font-weight: bold;
+     position: absolute;
+     width: 100%;
+     height: var(--header-height);
+}
+
+header .container {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     height: 100%;
+     width: 1270px;
+}
+
+header nav span{
+     margin-left: 3.6rem;
+}
+
+/* ==================== Footer ==================== */
+footer {
+     color: #ffffff;
+     height: var(--footer-height);
+     background-color: var(--color-0);
+}
+
+footer .container {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     height: 100%;
+}
+
+.sec-title {
+     color: transparent;
+     font-weight: bold;
+     font-size: 7rem;
+     line-height: 140%;
+     -webkit-text-stroke: 0.2rem var(--color-0);
+}

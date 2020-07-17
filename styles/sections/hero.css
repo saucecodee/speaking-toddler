@@ -1,0 +1,51 @@
+#hero {
+     background: url("./../../assets/hero-bg.png") no-repeat;
+     background-size: cover;
+     background-position: center;
+     height: 100vh;
+     width: 100%;
+}
+
+#hero .container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100%;
+}
+
+#hero .title {
+     color: #ffffff;
+     width: 94.9rem;
+     /* font-family: Muli; */
+     font-weight: bold;
+     font-size: 7rem;
+     line-height: 7rem;
+     text-align: center;
+}
+
+.count-down {
+     position: absolute;
+     bottom: 8.4rem;
+     color: #ffffff;
+}
+
+#hero .count-down .container {
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     grid-column-gap: 5rem;
+     width: auto;
+     text-align: center;
+}
+
+.count-down .num {
+     display: grid;
+     place-items: center;
+     width: 7rem;
+     height: 7rem;
+     font-weight: bold;
+     font-size: 30px;
+     line-height: 40px;
+     border: 3px solid #ffffff;
+     border-radius: 50%;
+     margin-bottom: 1rem;
+}
