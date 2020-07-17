@@ -1,0 +1,7 @@
+#parents .cards-container{
+     background-color: var(--color-3);
+     height: 414px;
+     margin-top: 5.7rem;
+     display: flex;
+     align-items: center;
+}
