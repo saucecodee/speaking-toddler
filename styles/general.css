@@ -24,6 +24,7 @@ header nav span{
 /* ==================== Footer ==================== */
 footer {
      color: #ffffff;
+     font-size: 2rem;
      height: var(--footer-height);
      background-color: var(--color-0);
 }
